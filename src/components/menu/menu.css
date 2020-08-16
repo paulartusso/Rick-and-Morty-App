@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.menu{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    background-color: #333;
+    font-size: 24px;
+    color: aliceblue;
+    font-family: Alata, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 60px;
+    margin-left: 35px;
+}
+
+.title{
+    color: whitesmoke;
+}
+
+.icon{
+    margin-left: 15px;
+    margin-top: 6px;
+    font-size: 29px;
+}

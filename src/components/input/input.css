@@ -1,0 +1,11 @@
+.search-input{
+    width: 75vw;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.781);
+}
