@@ -3,10 +3,8 @@ import "./filters.css";
 
 const Filters = ({showFilters}) =>{
 
-    if(!showFilters) return null;
-
     return(
-        <div className="filters-container">
+        <div div className={`filters-container ${showFilters ? 'shown-filters': 'hidden-filters'}`}>
             <label>
                 <input type="checkbox" />
                 Characters

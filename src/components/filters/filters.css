@@ -1,14 +1,26 @@
 .filters-container{
-    height: 0px;
     width: 100%;
-    padding: 40px;
-    border-top: 2px solid rgba(66, 194, 66, 0.712);
     background-color: #333;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
+.hidden-filters{
+    height: 0px;
+}
+
+.shown-filters{
+    height: 150px;
+    transition: height 0.2s linear;
+    padding: 30px;
+    border-top: 2px solid rgba(66, 194, 66, 0.712);
+}
+
 div label{
     font-size: 18px;
+    overflow: hidden;
 }
+
+
+
